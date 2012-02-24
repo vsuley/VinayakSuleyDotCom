@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://ftp.winisp.net" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Default Web Site/VinayakSuleyDotCom" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="WinISP 1" publishMethod="FTP" replaceMatchingFiles="False" userName="11072.Suley" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVc9Gd+nlB0W7U2ytJKK/7wAAAAACAAAAAAAQZgAAAAEAACAAAAAK86yDixU599bZxAQkNLfnzXlyKm5eJCG/RJAq2NRDUwAAAAAOgAAAAAIAACAAAAD5RQXghB2Z4+JnSGTzObGJlW8JsFEkuZ09K445YLfuCCAAAAArviJBUd2msFrPzkkZsuahSkoCk+FLqOnxO+6+D0zuqkAAAADHza0SoEI0TGnh1V0w9Ajjcwm5UY3YEC1MMR+MafeI0dxjaHOAH0iLxtApa+AtY20iLKBfYEdndjVurcjp0Ke6" SelectedForPublish="False">
+    <file relUrl="Text files/LayoutIdeas.txt" publishTime="01/30/2011 22:26:57" />
+    <file relUrl="Views/Home/Index.aspx" publishTime="01/28/2011 15:07:22" />
+    <file relUrl="Models/PhotoRepository.cs" publishTime="01/31/2011 19:28:52" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Controllers/AccountController.cs" publishTime="01/26/2011 17:59:15" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Shared/LoginStatus.ascx" publishTime="01/26/2011 11:38:35" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Controllers/PortfolioController.cs" publishTime="02/15/2011 23:37:02" />
+    <file relUrl="Text files/SlideshowAlgorithm.txt" publishTime="02/12/2011 20:00:05" />
+    <file relUrl="Web.Release.config" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Controllers/ManageController.cs" publishTime="02/16/2011 00:47:44" />
+    <file relUrl="Views/HireMe/ContactInfo.aspx" publishTime="01/20/2011 23:58:59" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Properties/Resources.Designer.cs" publishTime="01/26/2011 13:34:21" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="bin/VinayakSuleyDotCom.pdb" publishTime="02/16/2011 21:43:34" />
+    <file relUrl="Text files/NotesAndTodos.txt" publishTime="02/16/2011 21:04:27" />
+    <file relUrl="Models/UserIdentity.cs" publishTime="01/26/2011 11:35:40" />
+    <file relUrl="VinayakSuleyDotCom.csproj" publishTime="02/16/2011 21:41:56" />
+    <file relUrl="Views/Portfolio/NoPhotosForTag.aspx" publishTime="01/31/2011 00:27:21" />
+    <file relUrl="Views/Manage/PhotoCatalog.aspx" publishTime="02/16/2011 19:15:25" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Manage/EditPhotoData.aspx" publishTime="02/15/2011 23:54:54" />
+    <file relUrl="Global.asax.cs" publishTime="02/15/2011 23:52:35" />
+    <file relUrl="Views/Account/LogOn.aspx" publishTime="01/26/2011 18:15:02" />
+    <file relUrl="Models/VSDotCom.Designer.cs" publishTime="01/30/2011 22:20:51" />
+    <file relUrl="Global.asax" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/HelperScripts.js" publishTime="01/28/2011 10:06:23" />
+    <file relUrl="Controllers/HireMeController.cs" publishTime="01/21/2011 00:02:56" />
+    <file relUrl="Views/HireMe/Rates.aspx" publishTime="01/20/2011 23:59:18" />
+    <file relUrl="App_Data/VSDotCom.MDF" publishTime="02/16/2011 19:35:18" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="01/30/2011 23:18:12" />
+    <file relUrl="Views/AboutMe/Statement.aspx" publishTime="01/20/2011 23:57:35" />
+    <file relUrl="Controllers/AboutMeController.cs" publishTime="01/21/2011 00:01:49" />
+    <file relUrl="Scripts/jquery-1.4.4.js" publishTime="01/27/2011 10:52:26" />
+    <file relUrl="Views/Portfolio/Gallery.aspx" publishTime="01/31/2011 00:11:59" />
+    <file relUrl="Properties/Resources.resx" publishTime="01/26/2011 13:34:21" />
+    <file relUrl="Views/Portfolio/Slideshow.ascx" publishTime="02/16/2011 00:54:38" />
+    <file relUrl="Views/Home/data.txt" publishTime="01/27/2011 23:03:14" />
+    <file relUrl="Properties/Settings.Designer.cs" publishTime="02/15/2011 23:52:13" />
+    <file relUrl="Views/Web.config" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Web.config" publishTime="02/16/2011 21:43:41" />
+    <file relUrl="Views/Manage/UpdateSettings.ascx" publishTime="01/28/2011 11:35:41" />
+    <file relUrl="App_Data/VSDotCom_log.ldf" publishTime="02/16/2011 19:35:19" />
+    <file relUrl="Content/Site.css" publishTime="02/12/2011 19:15:18" />
+    <file relUrl="Views/Manage/DeletePhoto.aspx" publishTime="02/16/2011 00:40:41" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Manage/UploadPhoto.aspx" publishTime="02/13/2011 14:41:04" />
+    <file relUrl="Controllers/HomeController.cs" publishTime="01/28/2011 15:08:50" />
+    <file relUrl="Properties/Settings.settings" publishTime="02/15/2011 23:52:13" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="bin/VinayakSuleyDotCom.dll" publishTime="02/16/2011 21:43:34" />
+    <file relUrl="Web.Debug.config" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Models/Photo.cs" publishTime="02/12/2011 19:50:54" />
+    <file relUrl="Views/AboutMe/Blog.aspx" publishTime="01/20/2011 23:57:54" />
+    <file relUrl="VinayakSuleyDotCom.csproj.user" publishTime="02/16/2011 21:41:56" />
+  </publishProfile>
+  <publishProfile publishUrl="https://vserver01.cytanium.com:8172/MsDeploy.axd " deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="vinayaksuley.com/vinayaksuleydotcom" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Cytanium" publishMethod="MSDeploy" replaceMatchingFiles="False" userName="vsuley_mgt " savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVc9Gd+nlB0W7U2ytJKK/7wAAAAACAAAAAAAQZgAAAAEAACAAAABz6bhJNrMcB2dnGfWzpTsnHBYdUiE40VmuetqGFm5/HgAAAAAOgAAAAAIAACAAAAAriEvwXXCN77pG/LqQpRkXBLPo+DLwz1/WtcO32I7icSAAAADJRsGSBdxqlul7eIV4v27kHoMDS4YpgeizVdQ7JxEErUAAAABXPisAYQr0OpEj2PR8I4MojF9dDupnK5VPY9PNKVo8p5v89rmQvGbn+dzJGZ59WZJLLmIujCdh5UOx/O011avu" SelectedForPublish="False">
+    <file relUrl="Text files/LayoutIdeas.txt" publishTime="03/02/2011 19:04:44" />
+    <file relUrl="Views/TextPages/ContactInfo.aspx" publishTime="03/17/2011 00:48:22" />
+    <file relUrl="Models/PhotoRepository.cs" publishTime="03/10/2011 09:59:17" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Global.asax" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Shared/LoginStatus.ascx" publishTime="01/26/2011 11:38:35" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Controllers/PortfolioController.cs" publishTime="03/11/2011 00:43:53" />
+    <file relUrl="Text files/SlideshowAlgorithm.txt" publishTime="02/12/2011 20:00:05" />
+    <file relUrl="Web.Release.config" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Controllers/ManageController.cs" publishTime="03/14/2011 19:15:11" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Controllers/SlideshowController.cs" publishTime="03/07/2011 20:20:26" />
+    <file relUrl="Controllers/TextPagesController.cs" publishTime="03/14/2011 22:29:10" />
+    <file relUrl="Controllers/AccountController.cs" publishTime="01/26/2011 17:59:15" />
+    <file relUrl="Scripts/jquery-1.4.4.js" publishTime="01/27/2011 10:52:26" />
+    <file relUrl="Properties/Resources.Designer.cs" publishTime="01/26/2011 13:34:21" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="VinayakSuleyDotCom.csproj" publishTime="03/17/2011 19:56:19" />
+    <file relUrl="Views/Portfolio/NoPhotosForTag.aspx" publishTime="03/17/2011 00:37:34" />
+    <file relUrl="Properties/Settings.settings" publishTime="03/11/2011 17:21:47" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Models/Photo.cs" publishTime="03/02/2011 19:24:10" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Manage/EditPhotoData.aspx" publishTime="03/14/2011 19:20:51" />
+    <file relUrl="Global.asax.cs" publishTime="03/11/2011 19:22:47" />
+    <file relUrl="Views/Account/LogOn.aspx" publishTime="01/26/2011 18:15:02" />
+    <file relUrl="Models/VSDotCom.Designer.cs" publishTime="03/02/2011 19:18:41" />
+    <file relUrl="App_Data/VSDotCom_log.ldf" publishTime="03/17/2011 19:37:50" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/HelperScripts.js" publishTime="01/28/2011 10:06:23" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Portfolio/Gallery.aspx" publishTime="03/16/2011 18:18:01" />
+    <file relUrl="Models/UserIdentity.cs" publishTime="01/26/2011 11:35:40" />
+    <file relUrl="App_Data/VSDotCom.MDF" publishTime="03/17/2011 19:37:50" />
+    <file relUrl="VinayakSuleyDotCom.csproj.user" publishTime="03/17/2011 19:56:19" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="03/16/2011 18:25:28" />
+    <file relUrl="Models/DisplayPhoto.cs" publishTime="03/14/2011 00:33:04" />
+    <file relUrl="Text files/deadcode.txt" publishTime="03/10/2011 23:54:01" />
+    <file relUrl="Properties/Resources.resx" publishTime="01/26/2011 13:34:21" />
+    <file relUrl="Views/Portfolio/Slideshow.ascx" publishTime="03/16/2011 00:31:54" />
+    <file relUrl="Properties/Settings.Designer.cs" publishTime="03/11/2011 17:21:47" />
+    <file relUrl="Views/TextPages/Statement.aspx" publishTime="03/17/2011 00:39:42" />
+    <file relUrl="Web.config" publishTime="03/17/2011 19:56:55" />
+    <file relUrl="Views/Manage/UpdateSettings.ascx" publishTime="01/28/2011 11:35:41" />
+    <file relUrl="Text files/NotesAndTodos.txt" publishTime="03/16/2011 23:58:39" />
+    <file relUrl="Content/Site.css" publishTime="03/17/2011 14:49:19" />
+    <file relUrl="Views/Manage/DeletePhoto.aspx" publishTime="03/14/2011 19:20:58" />
+    <file relUrl="Views/TextPages/Index.aspx" publishTime="03/17/2011 00:34:39" />
+    <file relUrl="Views/Web.config" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Manage/PhotoCatalog.aspx" publishTime="03/14/2011 19:21:03" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="bin/VinayakSuleyDotCom.dll" publishTime="03/17/2011 19:56:44" />
+    <file relUrl="Web.Debug.config" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/PortfolioViewer.js" publishTime="03/16/2011 22:50:26" />
+    <file relUrl="Views/Manage/UploadPhoto.aspx" publishTime="03/14/2011 19:21:13" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+  </publishProfile>
+  <publishProfile publishUrl="C:\vinayaksuley.com" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="LocalDeployment" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
+    <file relUrl="Text files/LayoutIdeas.txt" publishTime="03/02/2011 19:04:44" />
+    <file relUrl="Views/TextPages/ContactInfo.aspx" publishTime="03/17/2011 00:48:22" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Global.asax" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Shared/LoginStatus.ascx" publishTime="01/26/2011 11:38:35" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Web.config" publishTime="03/17/2011 21:37:29" />
+    <file relUrl="Text files/SlideshowAlgorithm.txt" publishTime="02/12/2011 20:00:05" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Text files/deadcode.txt" publishTime="03/10/2011 23:54:01" />
+    <file relUrl="Scripts/jquery-1.4.4.js" publishTime="01/27/2011 10:52:26" />
+    <file relUrl="Text files/NotesAndTodos.txt" publishTime="03/16/2011 23:58:39" />
+    <file relUrl="Views/Portfolio/NoPhotosForTag.aspx" publishTime="03/17/2011 00:37:34" />
+    <file relUrl="Views/Manage/PhotoCatalog.aspx" publishTime="03/14/2011 19:21:03" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Manage/EditPhotoData.aspx" publishTime="03/14/2011 19:20:51" />
+    <file relUrl="Views/Account/LogOn.aspx" publishTime="01/26/2011 18:15:02" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/HelperScripts.js" publishTime="01/28/2011 10:06:23" />
+    <file relUrl="App_Data/VSDotCom.MDF" publishTime="03/17/2011 21:29:25" />
+    <file relUrl="Views/Web.config" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="03/16/2011 18:25:28" />
+    <file relUrl="Views/TextPages/Statement.aspx" publishTime="03/17/2011 00:39:42" />
+    <file relUrl="Views/Portfolio/Slideshow.ascx" publishTime="03/16/2011 00:31:54" />
+    <file relUrl="Views/Manage/UpdateSettings.ascx" publishTime="01/28/2011 11:35:41" />
+    <file relUrl="App_Data/VSDotCom_log.ldf" publishTime="03/17/2011 21:29:25" />
+    <file relUrl="bin/VinayakSuleyDotCom.pdb" publishTime="03/17/2011 21:38:26" />
+    <file relUrl="Views/Portfolio/Gallery.aspx" publishTime="03/16/2011 18:18:01" />
+    <file relUrl="Content/Site.css" publishTime="03/17/2011 14:49:19" />
+    <file relUrl="Views/Manage/DeletePhoto.aspx" publishTime="03/14/2011 19:20:58" />
+    <file relUrl="Views/TextPages/Index.aspx" publishTime="03/17/2011 00:34:39" />
+    <file relUrl="Views/Manage/UploadPhoto.aspx" publishTime="03/14/2011 19:21:13" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="bin/VinayakSuleyDotCom.dll" publishTime="03/17/2011 21:38:26" />
+    <file relUrl="Scripts/PortfolioViewer.js" publishTime="03/16/2011 22:50:26" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+  </publishProfile>
+  <publishProfile publishUrl="https://vserver01.cytanium.com:8172/MsDeploy.axd " deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="vinayaksuley.com" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="PublicDebug" publishMethod="MSDeploy" replaceMatchingFiles="False" userName="vsuley_mgt" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmrGWV0YNPki+jpvniJ/hfAAAAAACAAAAAAAQZgAAAAEAACAAAABsmpLZQeTkI394nl0YwdtaBoGW7xY2OHjwTFXxKoUsAgAAAAAOgAAAAAIAACAAAACoT9mIZuCoW6CFcaSNUp5EpApVpKIFFcYbfbg2ADfgwCAAAABt6SlbTJDdRFuSudSn/1z5ovOhbrIIaCmmADRQV3tnyUAAAADQWrxCVmn9cpNlCBk1RytnYoJu0o9tR4sBOSF8HwEiCHDDxFsShUCtkikLfw6v4eZVrJnVq2iT1Ye30XimoM1S" SelectedForPublish="True">
+    <file relUrl="Text files/LayoutIdeas.txt" publishTime="03/02/2011 19:04:44" />
+    <file relUrl="Views/TextPages/ContactInfo.aspx" publishTime="03/17/2011 00:48:22" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Global.asax" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Shared/LoginStatus.ascx" publishTime="01/26/2011 11:38:35" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/TextPages/Index.aspx" publishTime="03/17/2011 00:34:39" />
+    <file relUrl="Text files/SlideshowAlgorithm.txt" publishTime="02/12/2011 20:00:05" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Text files/deadcode.txt" publishTime="03/10/2011 23:54:01" />
+    <file relUrl="bin/VinayakSuleyDotCom.pdb" publishTime="03/18/2011 00:24:02" />
+    <file relUrl="Text files/NotesAndTodos.txt" publishTime="03/16/2011 23:58:39" />
+    <file relUrl="Views/Portfolio/NoPhotosForTag.aspx" publishTime="03/17/2011 00:37:34" />
+    <file relUrl="Views/Manage/PhotoCatalog.aspx" publishTime="03/14/2011 19:21:03" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Manage/EditPhotoData.aspx" publishTime="03/14/2011 19:20:51" />
+    <file relUrl="Text files/deploymentSaga.txt" publishTime="03/18/2011 00:40:54" />
+    <file relUrl="Scripts/jquery-1.4.4.js" publishTime="01/27/2011 10:52:26" />
+    <file relUrl="Views/Account/LogOn.aspx" publishTime="01/26/2011 18:15:02" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Scripts/HelperScripts.js" publishTime="01/28/2011 10:06:23" />
+    <file relUrl="Views/Portfolio/Gallery.aspx" publishTime="03/16/2011 18:18:01" />
+    <file relUrl="App_Data/VSDotCom.MDF" publishTime="03/18/2011 00:24:17" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="03/16/2011 18:25:28" />
+    <file relUrl="Views/TextPages/Statement.aspx" publishTime="03/17/2011 00:39:42" />
+    <file relUrl="Views/Portfolio/Slideshow.ascx" publishTime="03/16/2011 00:31:54" />
+    <file relUrl="Views/Manage/UpdateSettings.ascx" publishTime="01/28/2011 11:35:41" />
+    <file relUrl="Views/Web.config" publishTime="03/18/2011 00:24:11" />
+    <file relUrl="Web.config" publishTime="03/18/2011 01:04:11" />
+    <file relUrl="App_Data/VSDotCom_log.ldf" publishTime="03/18/2011 00:24:17" />
+    <file relUrl="Content/Site.css" publishTime="03/17/2011 14:49:19" />
+    <file relUrl="Views/Manage/DeletePhoto.aspx" publishTime="03/14/2011 19:20:58" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="Views/Manage/UploadPhoto.aspx" publishTime="03/14/2011 19:21:13" />
+    <file relUrl="App_Data/vsuleyVSDotComEntities.mdf" publishTime="03/18/2011 00:15:03" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="01/20/2011 18:53:17" />
+    <file relUrl="bin/VinayakSuleyDotCom.dll" publishTime="03/18/2011 00:24:02" />
+    <file relUrl="Scripts/PortfolioViewer.js" publishTime="03/16/2011 22:50:26" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="01/20/2011 18:53:17" />
+  </publishProfile>
+</publishData>

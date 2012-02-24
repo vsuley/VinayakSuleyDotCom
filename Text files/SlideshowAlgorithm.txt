@@ -1,0 +1,19 @@
+﻿Some thoughts about the slideshow algorigthm since it's going to be rather complicated.
+
+I. Data fetching
+a. Should I fetch thumbnails and full images differently?
+b. How many thumnails should I fetch at one time?
+c. Obviously, can't go fetch all thumnails first and then all larger images, since that would be gross. What logic should I use?
+d. How does pre-caching work? 
+e. How can I force expire the cache?
+f. Have read only (compile time) settings that describe how big small/medium/original size images are. At runtime, query the browser's window size and then match against these stored values to figure out what size thumbnail to fetch for maximum efficiency.
+
+
+II. Layout.
+- Grid-like layout where images can occupy different amounts of area.
+- The aspect ratio of images is not modified when displaying (*)
+- The size of the image presented is dictated by 'Weight' property in database. ranges from 1 to x. 1 being heaviest.
+- I'll partition the timeline into periods of 6 months. Within a 6 month period the images will be arranged by weight. The date will be date taken and not date uploaded.
+- Most recent images will be on the left. So the scale extends to the right into the past. Will be great if this can be configurable.
+
+III. Transitions and animations.

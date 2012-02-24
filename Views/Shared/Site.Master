@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <div class="MenuContainer">
+    <div class="Level1HorizontalMenu">
+      <table style="width:100%">
+        <tr>
+          <td style="text-align:left">
+            <span style="width:10px">&nbsp;</span>
+            <span>Portfolio</span>
+            <span style="width:3px">&nbsp;</span>
+            <span class="Level1MenuSubchoice"><%: Html.ActionLink("recent, ", "", "Portfolio")%> </span>
+            <span class="Level1MenuSubchoice"><%: Html.ActionLink("fine-art, ", "fine-art", "Portfolio")%> </span>
+            <span class="Level1MenuSubchoice"><%: Html.ActionLink("family, ", "family", "Portfolio")%> </span>
+            <span class="Level1MenuSubchoice"><%: Html.ActionLink("landscape", "landscape", "Portfolio")%> </span>
+          </td>
+          <td style="text-align:right;">
+            <span class="Level1MenuSubchoice"><%: Html.ActionLink("statement, ", "statement", "TextPages")%> </span>
+            <span class="Level1MenuSubchoice"><%: Html.ActionLink("contact", "contactinfo", "TextPages")%> </span>
+            <span style="width:10px" >&nbsp;</span>
+            <span>Information</span>
+            <span style="width:10px">&nbsp;</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+  <asp:ContentPlaceHolder ID="MainContent" runat="server">
+  </asp:ContentPlaceHolder>
+
+  <asp:ContentPlaceHolder ID="PageScripts" runat="server">
+  </asp:ContentPlaceHolder>
+
+</body>
+</html>

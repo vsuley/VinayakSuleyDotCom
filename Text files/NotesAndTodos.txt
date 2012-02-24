@@ -1,0 +1,95 @@
+﻿Todo - Current release
+- Wire scroll wheel to photo panel sliding.
+- If the slider is less than the width of the window then center it.
+- Add the action of showing full image to browser history and ability to go back from it.
+
+Todo - Next release
+- Make allowances for shadows in layout algorightm (overflow=hidden messes with shadows)
+- use overflow=hidden sparingly.
+- Add cache-expiry headers
+- Iterate over the content in text sections.
+- find a way to not show that broken image icon while the image loads.
+- Figure out how to throw some information onto a session cookie and how to throw other pieces of information onto a permanent cookie. Mostly for NSFW choices.
+- Change backgrounds randomly and persist them for sessions.
+- Look into error handling with ELMAH. Take a peek at NerdDinner for examples.
+- Create a favicon.
+- Get a security review from someone.
+- Upload multiple photos at a time.
+- quotes in filenames break the site!
+- Create a settings page with admin access that will let you change the appsettings on the fly.
+- Make all 500px tall containers more generic by assigning a class 'standardHeight' to them and have the height property of 500px defined in that class.
+
+Done (second release)
+- Resize math.
+- Remove scrolling buttons and add on-mouse behavior. AWESOME! 
+- Vertical positioning of text content should be smarter for various heights.
+- Double check if recent photos is returning the right set.
+- Order more recent first. Currently I think it's the other way round.
+- Vertical positioning of the slider should be smarter for various heights.
+- Download MS and Jquery scripts from websites from the web instead from your server.
+
+Done (First release) March 18th 2011. Yay!!
+- Replace table usage for non-tabular data by divs.
+- Figure out how to use the settings file.
+- Update page titles
+- Add a background image.
+- Start writing text blocks for sections.
+- Mirror the scroll bars.
+- Delete photo files on deletion of photo object.
+- In cases when a tag is not found and you display the error message, see if you can include the tag in the error message to make the error less mysterious.
+- Turn password protection back on for manage pages.
+- Switch to using release versions of the microsoft ajax framework.
+- Build a view for management.
+- Wire up log-in functionality for manage view.
+- Figure out how to use resource files for strings and text. Also figure out how to best maintain them.
+- Figure out a layout for the manage screen.
+- Start using a database instead of hardcoding construction.
+- Figure out how to autogenerate a unique identifier.
+- Read about the different HTTP methods and what they mean.
+- Need to figure out a way to neatly pass in the tag to the portfolio page. Either have some sort of custom routing, or structure the controller class smartly. 
+- Figure out how to upload a simple file.
+- Figure out how to resize images on server.
+- Right now there is a risk that if something fails between file upload and metadata writing, then there will be a dangling file with no DB entry. See if you can fix this.
+- Make the manage-index page look halfway decent (no css magic, just basic layout)
+- Make the edit photo data page look halfway decent.  (no css magic, just basic layout)
+- Make the delete page look halfway decent. (no css magic, just basic layout)
+- Start reading up on animation using javascript.
+- Wire left and right arrow keys to photo panel sliding.
+
+Shelved:
+- Add a vinayaksuley.com text somewhere.
+- Look up some articles online that describe how to optimize a database for tagbased lookup.
+	Reason: I will rely on searching through tags in the DB. Will revisit if time-permits or perf is unacceptable.
+- Read up some basics on SQL queries. (try searching for SQL cheat sheet or something)
+	Reason: Getting by for now. Will revist as needed.
+
+Too Vague:
+- Update all paths to be relative. Look out for image paths in DB and Database path in connection string.
+
+Deployment troubleshooting:
+- Had to install asp.net, didn't come when I installed IIS.
+- Had to then install asp.net 4.0 from command line using: c:\windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -ir
+- Need to change deployment configuration to copy over Images directory as well??
+- Need to figure out how to configure the SQL server database upon publishing.
+- App pool identity needs access to SQL server
+- Update the connection string to: (removed the explicit location to mdf)
+	- <add name="SqlServices"              connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=VSDotCom;                 Integrated Security=True;User Instance=True" />
+    - <add name="VSDotComEntities" connectionString="metadata=res://*/Models.VSDotCom.csdl|res://*/Models.VSDotCom.ssdl|res://*/Models.VSDotCom.msl;provider=System.Data.SqlClient;provider connection string=&quot;         Data Source=.\SQLEXPRESS;Initial Catalog=VSDotCom;           Integrated Security=True;User Instance=True;MultipleActiveResultSets=True&quot;" providerName="System.Data.EntityClient" />
+- Somehow make sure your tables exist and are up to date
+
+
+Feedback:
+- Ashima
+	* Commas look like a bad idea.
+	* READY FOR PRIME TIME? 
+
+- Rohan
+	* Like cell bgs and photo concept.
+	* randomization is good.
+	* horizontal slider is good.
+	* Thinks the siteBG is too dull, color is boring. Too little contrast in energy.
+	! * Main menu, commas are extra. Again, low contrast.
+	! * no mouse in Full mode is a handicap.
+	! * Scroll wheel?
+	! * Agress that slider should run through the screen.
+	* READY FOR PRIME TIME? Probably not. Needs more justification...how is it different from Facebook?

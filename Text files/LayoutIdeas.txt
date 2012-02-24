@@ -1,0 +1,26 @@
+﻿Manage screen:
+- When the user selects a certain photo to be deleted, make that row's background turn red.
+
+Photo panel:
+- In the circular type algorigthm, maybe you can make the top edge inaccessible, that will keep things more horizontal than vertical. But it might end up with very few photos in one panel.
+- Find a good way to send the left-over photos back to caller when the layout algorithm runs out of space to arrange all the photos passed into it.
+
+Organization of slideshow page.
+
+Phase I
+- Portofolio page that contains slideshow control in it. Just these two levels, no more.
+- To start with and to keep things simple render the entire thing server side. Including src Urls.
+- When user clicks on a photo, show the high res image on a floating element. Might have to render this client side. Do it right first time.
+- When a new tag is requested, the entire page is refreshed.
+
+Phase II
+- Next step, render black rectangles instead of images, and when loading is complete, fade black rects to show actual images.
+
+Phase III
+- Make it so that when a new tag is requested, we simply update the slideshow control and any other requred fields and update history.
+
+Phase IV.
+- Don't populate the src attributes in the beginning. Instead, populate them later. At first, just populate all of them in a sequential manner.
+
+Phase V.
+- Still populate the src's in a sequential manner, but throttle it. i.e. populate the first 10 and then wait for them to finish loading before downloading more.

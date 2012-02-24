@@ -1,0 +1,31 @@
+The Deployment saga
+
+1. Figure out if the thing I'm trying to deploy is a website or a web app.
+	- Look at visual studio project properties and see if you can figure something out.
+		* Right clicking on project shows me an option to convert to web app. this is a sign that it's currently just a website.
+	- I think I am building a website. I am going to move ahead with that assumption for now.
+	
+2. Change settings to be web site and see if it makes life any easier.
+	- couldn't figure out what settings were 'web application' specific. didn't find anything.
+	
+3. Remove that stupid ASPNET database and the built-in authentication. It seems too heavyweight and might be adding an extra database.
+	- I'll have ot implement my own logging solution. And for the time being, maybe I can prepopulate the database on my local machine before deploying
+	- The consumer part of website seems to be working fine even with the aspnet tables gone. Will try manage next.
+	- Strangely, the manage part seems to be working as well. Not sure how. Maybe [Authorize] is just returning true by default.
+	
+4. Now trying to deploy again, with a much more simplified database schema etc. First I tried deploying the release bits, but then realized that until I get the website working, would probably be a better idea to deploy debug.
+	- Deploying debug bits to server by first deploying locally and then copying the bits over to the server using FTP.
+	- Had to change folder structure to include a wwwroot folder under vinayaksuley.com on the server. wwwroot seems to be special since the server permissions that folder to be viewable from teh outside. Then things worked!
+
+5. Need to figure out how to get better errors.
+	- Made a transform addition to my custom build configuration to add customErrors mode="Off". copied new web.config over to server and started getting more detailed error.
+
+6. Get the connection string to work.
+	- Made some changes to connection string and now the connection string seems to work. But it can't find the tables I need.
+
+7. Need to figure out how to migrate database to server.
+	- 
+
+8. Need to figure out how to copy images folder when creating a deployment package.
+
+	

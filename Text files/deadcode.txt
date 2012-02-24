@@ -1,0 +1,167 @@
+﻿
+
+///////////////////////////////////
+            // TODO: Lay the photos out.
+            // For now, arrange them in a simple line, aligned at the top.
+            int xCounter = 0;
+            int photoCount = 0;
+            int smallestY = maxHeight;
+            Random random = new Random();
+
+            foreach (DisplayPhoto displayPhoto in displayPhotos)
+            {
+                displayPhoto.X = xCounter;
+
+                // Stagger every other photo vertically
+                // Instead of having the photos strewn along the horizontal very precisely,
+                // wel'll introduce a small offset to make it look cool and introduce some overlap in the vertical
+                // space.
+                int offset = Math.Min(random.Next(10, 50), displayPhoto.DisplayHeight);
+                displayPhoto.Y =
+                    (photoCount % 2 == 0) ?
+                    maxHeight / 2 - offset :
+                    maxHeight / 2 - displayPhoto.DisplayHeight + offset;
+
+                photoCount++;
+                xCounter += displayPhoto.DisplayWidth + Settings.Default.GalleryInterPhotoGap;
+                smallestY = (displayPhoto.Y < smallestY) ? displayPhoto.Y : smallestY;
+            }
+
+            // Now normalize the positions so that we don't have excess space up top.
+            foreach (DisplayPhoto displayPhoto in displayPhotos)
+            {
+                displayPhoto.Y -= smallestY;
+            }
+
+
+function LayoutPhotoPanel(photos) {
+
+    // Assumptions:
+    // 1. Coordinate system is such that x increases from left to right and y increases from top to bottom.
+    // 2. When specifying an image's position, the top-left corner is specified.
+
+    var startingX = 0;
+    var startingY = 0;
+
+    var mainImage = photos[0];
+    mainImage.X = startingX;
+    mainImage.Y = startingY;
+
+    var leftEdgeAvailable = true;
+    var rightEdgeAvailable = true;
+    var bottomEdgeAvailable = true;
+    var topEdgeAvailable = true;
+    var edgeConsumed = 0;
+
+    for (i = 1; i < photos.length; i++) {
+
+        if (rightEdgeAvailable) {
+
+            // Assign X and Y values. The way the algorigthm is structured, this is a fairly safe operation
+            // and can be dove into head-first. Then we setup the correct values for the next iteration.
+            photos[i].X = mainImage.X + mainImage.width;
+            photos[i].Y = mainImage.Y + edgeConsumed;
+            edgeConsumed += photos[i].height;
+
+            // Set it up correctly for the next iteration.
+            if (edgeConsumed > mainImage.height) {
+                rightEdgeAvailable = false;
+                edgeConsumed = 0;
+            }
+            continue;
+        }
+
+        if (bottomEdgeAvailable) {
+
+            photos[i].X = mainImage.X + mainImage.width - photos[i].width - edgeConsumed;
+            photos[i].Y = mainImage.Y + mainImage.height;
+            edgeConsumed += photos[i].width;
+
+            if (edgeConsumed > mainImage.width) {
+                bottomEdgeAvailable = false;
+                edgeConsumed = 0;
+            } 
+            continue;
+        }
+
+        if (leftEdgeAvailable) {
+
+            photos[i].X = mainImage.X - photos[i].width;
+            photos[i].Y = mainImage.Y + mainImage.height - photos[i].height - edgeConsumed;
+            edgeConsumed += photos[i].height;
+
+            if (edgeConsumed > mainImage.height) {
+                leftEdgeAvailable = false;
+                edgeConsumed = 0;
+            }
+            continue;
+        }
+
+        if (topEdgeAvailable) {
+
+            photos[i].X = mainImage.X + edgeConsumed;
+            photos[i].Y = mainImage.Y - photos[i].height;
+            edgeConsumed += photos[i].width;
+
+            if (edgeConsumed > mainImage.width) {
+                topEdgeAvailable = false;
+                edgeConsumed = 0;
+            }
+            break;
+            // If i is not the last photo, then that means there are photos going to be left over.
+            // TODO: find a way to communicate left-over photos back to caller.
+        }
+
+    } // end of for loop that walks through photos.
+
+} // end of layout function.
+
+function fetchImage() {
+
+    $("#PhotoPanel").html().replaceWith("Fuck you");
+
+    var picture = false;
+    $.getJSON("/Slideshow/GetPhoto", null, function (photo) {
+        picture = photo;
+    });
+
+}
+
+function Photo(id, width, height) {
+
+    this.id = id;
+    this.width = width;
+    this.height = height;
+    this.X = "NotYetCalculated";
+    this.Y = "NotYetCalculated";
+}
+
+        var sliderLeft = $(_panelSliderId).offset().left;
+
+        if (shiftAmount > 0) { // slide right
+
+            // There's some space left, but not enough
+            if (sliderLeft + shiftAmount >= _sliderMaxLeft) {
+                sliderLeft = _sliderMaxLeft;
+            }
+            else {
+                sliderLeft += shiftAmount;
+            }
+        }
+
+        else { // slide left
+
+            // There's some space left, but not enough
+            if (sliderLeft + shiftAmount <= _sliderMinLeft) {
+                sliderLeft = _sliderMinLeft;
+            }
+            else {
+                sliderLeft += shiftAmount;
+            }
+        }
+
+
+        if (_continuedScrollTimer != null) {
+            window.clearInterval(_continuedScrollTimer);
+            _continuedScrollTimer = null;
+        }
